@@ -13,10 +13,10 @@ Bu layihə, verilmiş server log faylını analiz edərək uğursuz giriş cəhd
    python -m venv venv
    venv\Scripts\activate  # Windows üçün
 3. **Kitabxanaları quraşdırın:**   
-   Layihənin işləməsi üçün lazım olan kitabxanaları requirements.txt faylından quraşdırın:
-   pip freeze > requirements.txt
-   python -m pip install --upgrade pip
-   pip install -r requirements.txt
+   Layihənin işləməsi üçün lazım olan kitabxanaları requirements.txt faylından quraşdırın:   
+   pip freeze > requirements.txt   
+   python -m pip install --upgrade pip   
+   pip install -r requirements.txt   
 4. **Skripti işə salın:**   
    Log faylını analiz etmək üçün aşağıdakı əmri icra edin:
    python main.py   
